@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0; 
+  margin-top:50px;
+  overflow: hidden;  
+  --type-fist: Arial, Helvetica, sans-serif;
+  --type-second:  'Spectral', Georgia ;
+}
+
+a {  
+  font-family: var(--type-fist);
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+button, input {
+  display: block;
+  font-size: 1rem;
+  font-family: var(--type-fist);
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+@media (max-width:700px) {
+  body {
+   overflow: hidden; 
+  }
+}
